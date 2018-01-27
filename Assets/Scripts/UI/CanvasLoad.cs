@@ -20,7 +20,7 @@ public class CanvasLoad : MonoBehaviour
 
 	}
 
-	private void OnCollisionEnter2D(Collision2D collision)
+	private void OnCollisionEnter(Collision collision)
 	{
 		ScenePick.SetActive(true);
 		Time.timeScale = 0;

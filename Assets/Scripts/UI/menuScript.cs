@@ -48,7 +48,7 @@ public class menuScript : MonoBehaviour
     }
     public void StartLevel()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("FlyingScene");
     }
 
     public void ExitGame()
