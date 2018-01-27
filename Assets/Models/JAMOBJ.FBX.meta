@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: d68f98ad2f71bc84eadac3e28fb9bf93
+timeCreated: 1517087315
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arch Basic
+    100002: Arch Basic002
+    100004: Arch Basic003
+    100006: Arch Rocky
+    100008: Arch Rocky001
+    100010: Big Tree A
+    100012: Big Tree B
+    100014: Big Tree B001
+    100016: Box001
+    100018: Box003
+    100020: Box004
+    100022: Cylinder001
+    100024: Cylinder002
+    100026: Cylinder003
+    100028: Cylinder004
+    100030: Fraggle Rock
+    100032: Fraggle Rock Small
+    100034: //RootNode
+    100036: Line001
+    100038: Line002
+    100040: LongRock
+    100042: LongRock Small
+    100044: Object001
+    100046: Object002
+    100048: Object003
+    100050: Object004
+    100052: Object005
+    100054: Object006
+    100056: Object007
+    100058: Object008
+    100060: Object009
+    100062: Object010
+    100064: Plane Bush
+    100066: Plane Bush Big
+    100068: Plane Grass
+    100070: Plane Grass Big
+    100072: Plane001
+    100074: Plane002
+    100076: Plane003
+    100078: Plane004
+    100080: Plane005
+    100082: Plane006
+    100084: Plane007
+    100086: Plane008
+    100088: Plane009
+    100090: Plane010
+    100092: Plane011
+    100094: Plane012
+    100096: Plane013
+    100098: Plane014
+    100100: Plane015
+    100102: Plane016
+    100104: Plane017
+    100106: Plane018
+    100108: Plane019
+    100110: Plane020
+    100112: Pointy Rock
+    100114: Rock
+    100116: Rock Duck
+    100118: Rock Small
+    100120: Round Boi
+    100122: Wood Duck
+    400000: Arch Basic
+    400002: Arch Basic002
+    400004: Arch Basic003
+    400006: Arch Rocky
+    400008: Arch Rocky001
+    400010: Big Tree A
+    400012: Big Tree B
+    400014: Big Tree B001
+    400016: Box001
+    400018: Box003
+    400020: Box004
+    400022: Cylinder001
+    400024: Cylinder002
+    400026: Cylinder003
+    400028: Cylinder004
+    400030: Fraggle Rock
+    400032: Fraggle Rock Small
+    400034: //RootNode
+    400036: Line001
+    400038: Line002
+    400040: LongRock
+    400042: LongRock Small
+    400044: Object001
+    400046: Object002
+    400048: Object003
+    400050: Object004
+    400052: Object005
+    400054: Object006
+    400056: Object007
+    400058: Object008
+    400060: Object009
+    400062: Object010
+    400064: Plane Bush
+    400066: Plane Bush Big
+    400068: Plane Grass
+    400070: Plane Grass Big
+    400072: Plane001
+    400074: Plane002
+    400076: Plane003
+    400078: Plane004
+    400080: Plane005
+    400082: Plane006
+    400084: Plane007
+    400086: Plane008
+    400088: Plane009
+    400090: Plane010
+    400092: Plane011
+    400094: Plane012
+    400096: Plane013
+    400098: Plane014
+    400100: Plane015
+    400102: Plane016
+    400104: Plane017
+    400106: Plane018
+    400108: Plane019
+    400110: Plane020
+    400112: Pointy Rock
+    400114: Rock
+    400116: Rock Duck
+    400118: Rock Small
+    400120: Round Boi
+    400122: Wood Duck
+    2300000: Arch Basic
+    2300002: Arch Basic002
+    2300004: Arch Basic003
+    2300006: Arch Rocky
+    2300008: Arch Rocky001
+    2300010: Big Tree A
+    2300012: Big Tree B
+    2300014: Box001
+    2300016: Box003
+    2300018: Box004
+    2300020: Cylinder002
+    2300022: Cylinder003
+    2300024: Cylinder004
+    2300026: Fraggle Rock
+    2300028: Fraggle Rock Small
+    2300030: LongRock
+    2300032: LongRock Small
+    2300034: Object001
+    2300036: Object002
+    2300038: Object003
+    2300040: Object004
+    2300042: Object005
+    2300044: Object006
+    2300046: Object007
+    2300048: Object008
+    2300050: Object009
+    2300052: Object010
+    2300054: Plane001
+    2300056: Plane002
+    2300058: Plane003
+    2300060: Plane004
+    2300062: Plane005
+    2300064: Plane006
+    2300066: Plane007
+    2300068: Plane008
+    2300070: Plane009
+    2300072: Plane010
+    2300074: Plane011
+    2300076: Plane012
+    2300078: Plane013
+    2300080: Plane014
+    2300082: Plane015
+    2300084: Plane016
+    2300086: Plane017
+    2300088: Plane018
+    2300090: Plane019
+    2300092: Plane020
+    2300094: Pointy Rock
+    2300096: Rock
+    2300098: Rock Duck
+    2300100: Rock Small
+    2300102: Round Boi
+    2300104: Wood Duck
+    3300000: Arch Basic
+    3300002: Arch Basic002
+    3300004: Arch Basic003
+    3300006: Arch Rocky
+    3300008: Arch Rocky001
+    3300010: Big Tree A
+    3300012: Big Tree B
+    3300014: Box001
+    3300016: Box003
+    3300018: Box004
+    3300020: Cylinder002
+    3300022: Cylinder003
+    3300024: Cylinder004
+    3300026: Fraggle Rock
+    3300028: Fraggle Rock Small
+    3300030: LongRock
+    3300032: LongRock Small
+    3300034: Object001
+    3300036: Object002
+    3300038: Object003
+    3300040: Object004
+    3300042: Object005
+    3300044: Object006
+    3300046: Object007
+    3300048: Object008
+    3300050: Object009
+    3300052: Object010
+    3300054: Plane001
+    3300056: Plane002
+    3300058: Plane003
+    3300060: Plane004
+    3300062: Plane005
+    3300064: Plane006
+    3300066: Plane007
+    3300068: Plane008
+    3300070: Plane009
+    3300072: Plane010
+    3300074: Plane011
+    3300076: Plane012
+    3300078: Plane013
+    3300080: Plane014
+    3300082: Plane015
+    3300084: Plane016
+    3300086: Plane017
+    3300088: Plane018
+    3300090: Plane019
+    3300092: Plane020
+    3300094: Pointy Rock
+    3300096: Rock
+    3300098: Rock Duck
+    3300100: Rock Small
+    3300102: Round Boi
+    3300104: Wood Duck
+    4300000: Box001
+    4300002: Big Tree A
+    4300004: Big Tree B
+    4300006: Cylinder002
+    4300008: Object001
+    4300010: Plane007
+    4300012: Plane001
+    4300014: Plane002
+    4300016: Plane008
+    4300018: Object004
+    4300020: Plane006
+    4300022: Object003
+    4300024: Plane005
+    4300026: Object002
+    4300028: Plane004
+    4300030: Plane003
+    4300032: Plane010
+    4300034: Object005
+    4300036: Plane009
+    4300038: Plane011
+    4300040: Object006
+    4300042: Plane012
+    4300044: Plane013
+    4300046: Object007
+    4300048: Plane014
+    4300050: Plane015
+    4300052: Plane016
+    4300054: Plane017
+    4300056: Object008
+    4300058: Plane018
+    4300060: Object009
+    4300062: Object010
+    4300064: Plane019
+    4300066: Plane020
+    4300068: Rock
+    4300070: Pointy Rock
+    4300072: Round Boi
+    4300074: Rock Small
+    4300076: Fraggle Rock
+    4300078: LongRock
+    4300080: LongRock Small
+    4300082: Fraggle Rock Small
+    4300084: Cylinder003
+    4300086: Arch Basic
+    4300088: Box003
+    4300090: Arch Rocky
+    4300092: Arch Basic002
+    4300094: Wood Duck
+    4300096: Rock Duck
+    4300098: Arch Rocky001
+    4300100: Arch Basic003
+    4300102: Cylinder004
+    4300104: Box004
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 09d7dc13e5f3b4c4a90ad9d718d86250, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
