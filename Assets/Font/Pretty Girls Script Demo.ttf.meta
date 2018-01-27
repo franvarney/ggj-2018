@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0ace6b6545304de418dc1c5226796e99
+timeCreated: 1517084425
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pretty Girls Script Demo
+  fontNames:
+  - Pretty Girls Script Demo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
