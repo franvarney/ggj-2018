@@ -14,7 +14,6 @@ public class ReSpawn : MonoBehaviour
 	void Start ()
 	{
 		panel = GetComponent<Image>();
-		Respawn();
 	}
 
 	public void Respawn()
