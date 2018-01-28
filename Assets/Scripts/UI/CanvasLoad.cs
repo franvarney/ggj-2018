@@ -20,10 +20,10 @@ public class CanvasLoad : MonoBehaviour
 
 	}
 
-	private void OnCollisionEnter(Collision collision)
+	private void OnTriggerEnter(Collider collider)
 	{
+		if (!collider.CompareTag("Player")){return;}
+		Debug.Log("ScenePick is active");
 		ScenePick.SetActive(true);
-		Time.timeScale = 0;
-
 	}
 }

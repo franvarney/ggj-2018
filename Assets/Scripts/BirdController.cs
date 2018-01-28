@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BirdController : FlyingController {
 
+	
 	// Use this for initialization
 	void Start () {
 		

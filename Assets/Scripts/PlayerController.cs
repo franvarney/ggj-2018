@@ -9,8 +9,12 @@ public class PlayerController : FlyingController {
 
     private void OnTriggerEnter(Collider other) {
         Debug.Log(other.tag);
-        if (other.tag == "Obstacle") {
+        if (other.gameObject.CompareTag("Obstacle")) {
             Restart();
+        }else if (other.gameObject.CompareTag("Finish"))
+        {
+            isMoving = false;
+            rigidBody.velocity = Vector3.zero;
         }
     }
 
@@ -19,7 +23,8 @@ public class PlayerController : FlyingController {
         SceneManager.LoadScene(scene.name);
     }
 
-    private void Update() {
+    private void Update()
+    {
         if (isMoving) {
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) {
                 rigidBody.MovePosition(transform.position + Vector3.up * xySpeed);
