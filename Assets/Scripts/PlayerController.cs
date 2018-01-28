@@ -1,9 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using NUnit.Framework.Constraints;
-using NUnit.Framework.Internal.Execution;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class PlayerController : FlyingController {
 
