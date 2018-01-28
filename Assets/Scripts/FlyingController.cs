@@ -19,7 +19,9 @@ public class FlyingController : MonoBehaviour {
         }
     }
 
-    public void Move() {
+    public void Move()
+    {
+        Debug.Log("Setting isMoving to true");
         isMoving = true;
     }
 }
