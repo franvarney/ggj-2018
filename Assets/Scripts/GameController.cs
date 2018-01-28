@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour {
 	}
 	
 	void Update () {
-		if (Input.GetKeyDown(startKey)) {
+		if (Input.anyKeyDown) {
             StartRound();
         }
 	}
