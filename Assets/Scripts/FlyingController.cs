@@ -9,6 +9,7 @@ public class FlyingController : MonoBehaviour {
 
     protected bool isMoving = false;
     protected bool isDead = false;
+    protected bool isLevelFinished = false;
     
     protected Rigidbody rigidBody;
 
@@ -17,7 +18,7 @@ public class FlyingController : MonoBehaviour {
 	}
 	
 	protected void FixedUpdate() {
-        if (isMoving && !isDead) {
+        if (isMoving && !isDead && !isLevelFinished) {
             rigidBody.AddForce(Vector3.forward * zSpeed);
         }
     }

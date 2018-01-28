@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework.Constraints;
+using NUnit.Framework.Internal.Execution;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,6 +21,7 @@ public class PlayerController : FlyingController {
         }else if (other.gameObject.CompareTag("Finish"))
         {
             isMoving = false;
+            isLevelFinished = true;
             rigidBody.velocity = Vector3.zero;
         }
     }
@@ -36,6 +38,7 @@ public class PlayerController : FlyingController {
     {
         gameObject.transform.position = startPosition;
         isDead = false;
+        isLevelFinished = false;
     }
 
     private void Start()
@@ -46,7 +49,7 @@ public class PlayerController : FlyingController {
 
     private void Update()
     {
-        if (isMoving && !isDead) {
+        if (isMoving && !isDead && !isLevelFinished) {
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) {
                 rigidBody.MovePosition(transform.position + Vector3.up * xySpeed);
             }
