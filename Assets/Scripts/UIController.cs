@@ -16,18 +16,22 @@ public class UIController : MonoBehaviour
 	private const KeyCode DOWN_ARROW = KeyCode.DownArrow;
 
 	private bool noKeySelected = true;
-	
-	// Use this for initialization
-	void Start ()
+
+	private void Start()
 	{
 		menuButtons = GetComponentsInChildren<Button>();
-		menuButtons[0].Select();
-		noKeySelected = false;
+		Invoke("SelectFirstButton", 1f);
+		Debug.Log("Selected menuButton " + menuButtons[0].name);
 	}
 
 	private void OnEnable()
 	{
 		menuButtons = GetComponentsInChildren<Button>();
+		Invoke("SelectFirstButton", 1f);
+	}
+
+	private void SelectFirstButton()
+	{
 		menuButtons[0].Select();
 		noKeySelected = false;
 	}
