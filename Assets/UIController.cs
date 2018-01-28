@@ -24,7 +24,19 @@ public class UIController : MonoBehaviour
 		menuButtons[0].Select();
 		noKeySelected = false;
 	}
-	
+
+	private void OnEnable()
+	{
+		menuButtons = GetComponentsInChildren<Button>();
+		menuButtons[0].Select();
+		noKeySelected = false;
+	}
+
+	private void OnDisable()
+	{
+		noKeySelected = true;
+	}
+
 	// Update is called once per frame
 	void Update () {
 		if (noKeySelected && (Input.GetKeyDown(UP_ARROW) || 
