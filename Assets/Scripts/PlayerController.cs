@@ -4,6 +4,7 @@ public class PlayerController : FlyingController {
 
     public float xySpeed = 1.5f;
     public float maxYPos;
+    public float minYPos;
     public GameObject RespawnPanel;
     private Vector3 startPosition;
     
@@ -71,6 +72,9 @@ public class PlayerController : FlyingController {
         if (rigidBody.position.y > maxYPos)
         {
             rigidBody.position = new Vector3(rigidBody.position.x, maxYPos, rigidBody.position.z);
+        }else if (rigidBody.position.y < minYPos)
+        {
+            rigidBody.position = new Vector3(rigidBody.position.x, minYPos, rigidBody.position.z);
         }
     }
 }
